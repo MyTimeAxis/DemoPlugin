@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="org.demo.mytoast" version="0.0.1">
-  <name>MyToast</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-MyToast" version="0.2.3">
+    <name>MyToast</name>
+    <description>Cordova Device Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,device</keywords>
   <js-module name="MyToast" src="www/MyToast.js">
     <clobbers target="cordova.plugins.MyToast"/>
   </js-module>
